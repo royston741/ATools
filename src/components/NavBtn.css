@@ -1,0 +1,25 @@
+.nav_btn {
+    border: none;
+    margin-right: 20px;
+    width: 170px;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .free_trial_btn {
+    background-color: var(--web-color);
+  }
+  
+  .login_btn{
+      background-color: #fb8500;
+  }
+  
+  
+@media screen and (max-width:800px) {
+  .nav_btns{
+    display: none;
+  }
+}

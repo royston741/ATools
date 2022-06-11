@@ -1,0 +1,36 @@
+main{
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    height: 90vh;
+}
+
+.img{
+    background-image: url('../img/webImg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+@media screen and (max-width:1000px) {
+    main{
+        grid-template-columns: 1fr 1.3fr;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    main{
+        grid-template-columns: 1fr 1.1fr;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    main{
+        grid-template-columns: 1fr;
+    }
+
+    .img{
+        display: none;
+    }
+}
